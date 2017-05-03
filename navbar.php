@@ -26,7 +26,6 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
             <li <?php if (stripos($_SERVER['REQUEST_URI'],'index.php') !== false) {echo 'class="active"';} ?> ><a class="nav-item nav-link" href="index.html">Home</a></li>
-            <a class="nav-item nav-link active" href="index.html">Home<span class="sr-only">(current)</span></a>
             <a class="nav-item nav-link" href="about.html">About Me</a>
             <a class="nav-item nav-link" href="http://github.com/LiamWA11" target="_blank">GitHub Repos</a>
             <a class="nav-item nav-link" href="blog.html">Blog</a>
