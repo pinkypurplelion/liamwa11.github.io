@@ -25,44 +25,41 @@
     <a class="navbar-brand" href="index.html">langus.me</a>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-            <li <?php if (stripos($_SERVER['REQUEST_URI'],'index.php') !== false) {echo 'class="active"';} ?> ><a class="nav-item nav-link" href="index.html">Home</a></li>
-            <a class="nav-item nav-link" href="about.html">About Me</a>
-            <a class="nav-item nav-link" href="http://github.com/LiamWA11" target="_blank">GitHub Repos</a>
-            <a class="nav-item nav-link" href="blog.html">Blog</a>
-            <a class="nav-item nav-link" href="support.html">Support Me</a>
-            <a class="nav-item nav-link" href="tutor.html">Tutoring</a>
+            <li <?php if (stripos($_SERVER['REQUEST_URI'],'index.php') !== false) {echo 'class="active"';} ?> ><a class="nav-item nav-link" href="index.php">Home</a></li>
+            <li <?php if (stripos($_SERVER['REQUEST_URI'],'about.php') !== false) {echo 'class="active"';} ?> ><a class="nav-item nav-link" href="about.php">About Me</a></li>
+            <li <?php if (stripos($_SERVER['REQUEST_URI'],'gamedev.php') !== false) {echo 'class="active"';} ?> ><a class="nav-item nav-link" href="gamedev.php">Games</a></li>
+            <li <?php if (stripos($_SERVER['REQUEST_URI'],'appdev.php') !== false) {echo 'class="active"';} ?> ><a class="nav-item nav-link" href="appdev.php">Apps</a></li>
 
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Programming Projects
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="apps.html">Applications</a>
-                    <a class="dropdown-item" href="games.html">Games</a>
-                    <a class="dropdown-item" href="wip.html">Works in Progress</a>
-                    <a class="dropdown-item" href="submit.html">??Submit An Idea??</a>
-                </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Games
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
-                    <a class="dropdown-item" href="gil.html">Games That I Like</a>
-                    <a class="dropdown-item" href="watch.html">Watch Me Play Games</a>
-                </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Products & Services
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink3">
-                    <a class="dropdown-item" href="web.html">Commission A Website</a>
-                    <a class="dropdown-item" href="code.html">Commission A Programming Project</a>
-                    <a class="dropdown-item" href="store.html">Store</a>
-                </div>
-            </li>
-            <a class="nav-item nav-link" href="other.html">Other</a>
+<!--            <li class="nav-item dropdown">-->
+<!--                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+<!--                    Programming Projects-->
+<!--                </a>-->
+<!--                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">-->
+<!--                    <a class="dropdown-item" href="apps.html">Applications</a>-->
+<!--                    <a class="dropdown-item" href="games.html">Games</a>-->
+<!--                    <a class="dropdown-item" href="wip.html">Works in Progress</a>-->
+<!--                    <a class="dropdown-item" href="submit.html">??Submit An Idea??</a>-->
+<!--                </div>-->
+<!--            </li>-->
+<!--            <li class="nav-item dropdown">-->
+<!--                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+<!--                    Games-->
+<!--                </a>-->
+<!--                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">-->
+<!--                    <a class="dropdown-item" href="gil.html">Games That I Like</a>-->
+<!--                    <a class="dropdown-item" href="watch.html">Watch Me Play Games</a>-->
+<!--                </div>-->
+<!--            </li>-->
+<!--            <li class="nav-item dropdown">-->
+<!--                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+<!--                    Products & Services-->
+<!--                </a>-->
+<!--                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink3">-->
+<!--                    <a class="dropdown-item" href="web.html">Commission A Website</a>-->
+<!--                    <a class="dropdown-item" href="code.html">Commission A Programming Project</a>-->
+<!--                    <a class="dropdown-item" href="store.html">Store</a>-->
+<!--                </div>-->
+<!--            </li>-->
             <span class="navbar-text navbar-toggler-right text-sm-center">
                 L.J Angus
             </span>
